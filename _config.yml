@@ -16,9 +16,17 @@ description: >-
 url: https://oyilmaztekin.github.io
 baseurl: /frezpo
 
-# Absolute, and hosted on the product domain — the same 1200x630 card frezpo.com
+# jekyll-seo-tag reads `page.image`, not `site.image` — a top-level `image:` key
+# is silently ignored and og:image never renders. `defaults` sets it per page,
+# which is the form the plugin actually looks at.
+#
+# Absolute, and hosted on the product domain: the same 1200x630 card frezpo.com
 # serves, so a share of either surface looks identical.
-image: https://frezpo.com/og-default.png
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: https://frezpo.com/og-default.png
 
 theme: jekyll-theme-primer
 
