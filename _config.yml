@@ -1,0 +1,26 @@
+# GitHub Pages (Jekyll) config for oyilmaztekin.github.io/frezpo/
+#
+# This repo holds no source. Pages exists because the rendered site emits links
+# WITHOUT rel="nofollow", unlike the github.com repo page, which nofollows every
+# external link in a README.
+#
+# jekyll-seo-tag builds <title> as "{page.title} | {site.title}". page.title
+# comes from the README's H1 ("Frezpo"), so site.title carries the descriptive
+# half rather than repeating the brand.
+
+title: AI Campaign Strategy for Google Ads + Landing Pages
+description: >-
+  Frezpo turns one client brief into an aligned Google Ads and landing page
+  campaign strategy pack, so message match survives the handoff to build.
+
+url: https://oyilmaztekin.github.io
+baseurl: /frezpo
+
+# Absolute, and hosted on the product domain — the same 1200x630 card frezpo.com
+# serves, so a share of either surface looks identical.
+image: https://frezpo.com/og-default.png
+
+theme: jekyll-theme-primer
+
+plugins:
+  - jekyll-seo-tag
