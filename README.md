@@ -38,13 +38,9 @@ Frezpo publishes three of its internal skills as machine-readable `SKILL.md` fil
 
 Index: [frezpo.com/.well-known/agent-skills/index.json](https://frezpo.com/.well-known/agent-skills/index.json). Human-facing hub: [frezpo.com/skills](https://frezpo.com/skills/). Also see [llms.txt](https://frezpo.com/llms.txt).
 
-## Stack
-
-Next.js, TypeScript, Python, LangGraph, Supabase, Polar.
-
 ## Built by
 
-Özer Yılmaztekin, Principal Engineer, 15+ years, İzmir, Türkiye. Built and maintained solo.
+[Özer Yılmaztekin](https://github.com/oyilmaztekin/), Principal Engineer, 15+ years, İzmir, Türkiye. Built and maintained solo.
 
 ## Links
 
